@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisa & Luz Energia - Frutiger Aero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Elementos decorativos de fundo -->
+    <div class="bubble" style="width: 80px; height: 80px; top: 10%; left: 10%; animation-duration: 8s;"></div>
+    <div class="bubble" style="width: 150px; height: 150px; top: 30%; left: 80%; animation-duration: 12s;"></div>
+    <div class="bubble" style="width: 50px; height: 50px; top: 60%; left: 20%; animation-duration: 6s;"></div>
+    <div class="sun"></div>
+
+    <!-- Navegação -->
+    <nav>
+        <div class="nav-inner">
+            <div class="logo"><div class="logo-icon"></div> Brisa &amp; Luz Energia</div>
+            <ul>
+                <li><a href="#" data-section="home">Início</a></li>
+                <li><a href="#" data-section="servicos">Serviços</a></li>
+                <li><a href="#" data-section="orcamento">Orçamento</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HOME -->
+        <section id="home" class="section active">
+            <div class="glass-card" style="text-align: center; padding: 80px 30px;">
+                <h1>Brisa &amp; Luz Energia</h1>
+                <p id="typewriter" style="font-size: 28px; font-weight: 300; min-height: 40px;"></p>
+                <p style="margin-bottom: 40px;">A energia limpa do futuro, com o design nostálgico que você ama.</p>
+                <button class="btn" data-section="servicos">Conheça nossos serviços</button>
+            </div>
+
+            <div class="glass-card">
+                <h2>Nossos Números</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="95">0</div>
+                        <div class="stat-label">% de Economia</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10000">0</div>
+                        <div class="stat-label">Clientes Ativos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="25">0</div>
+                        <div class="stat-label">Anos de Garantia</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="120">0</div>
+                        <div class="stat-label">Projetos Entregues</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="3500">0</div>
+                        <div class="stat-label">Hectares de Natureza Salvos</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <h2>O que nossos clientes dizem</h2>
+                <div class="testimonial-container">
+                    <div class="testimonial active">
+                        <p>"Excelente atendimento e instalação. Minha conta de luz caiu 90%! A tecnologia é incrível."</p>
+                        <div class="testimonial-author">- João Silva, São Paulo</div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"As turbinas eólicas são silenciosas e geram energia até mesmo em dias de vento fraco. Recomendo demais!"</p>
+                        <div class="testimonial-author">- Maria Oliveira, Fortaleza</div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Colocamos uma PCH na nossa fazenda e nunca mais pagamos energia. A Brisa &amp; Luz tem um suporte fantástico."</p>
+                        <div class="testimonial-author">- Pedro Almeida, Minas Gerais</div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"A instalação foi rápida e o suporte é excelente. Recomendo para qualquer pessoa que queira economizar."</p>
+                        <div class="testimonial-author">- Ana Costa, Rio de Janeiro</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <h2>Dúvidas Frequentes (FAQ)</h2>
+                <div class="faq-item">
+                    <button class="faq-question">Como funciona a geração de energia solar? <span>▼</span></button>
+                    <div class="faq-answer">
+                        <p>Os painéis fotovoltaicos captam a luz do sol e a transformam em corrente elétrica. Um inversor converte para o uso doméstico e o excedente é creditado na rede.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Preciso de muito espaço para instalar? <span>▼</span></button>
+                    <div class="faq-answer">
+                        <p>Não. Sistemas solares modernos podem ser instalados em telhados; eólicas em postes; e hidrelétricas em pequenos riachos.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Quanto tempo leva para o retorno do investimento? <span>▼</span></button>
+                    <div class="faq-answer">
+                        <p>Em média, entre 3 a 5 anos, dependendo do consumo e da tarifa de energia da sua região.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section id="servicos" class="section">
+            <h2>Nossos Serviços</h2>
+            <div class="service-grid">
+                <div class="glass-card" style="text-align: center;">
+                    <div style="font-size: 60px; margin-bottom: 20px; text-shadow: 0 4px 5px white;">☀️</div>
+                    <h3>Energia Solar</h3>
+                    <p>Aproveite a luz do sol com painéis fotovoltaicos de alta performance e design compacto.</p>
+                    <button class="btn" data-quote="solar">Solicitar Orçamento</button>
+                </div>
+                <div class="glass-card" style="text-align: center;">
+                    <div style="font-size: 60px; margin-bottom: 20px; text-shadow: 0 4px 5px white;">🌬️</div>
+                    <h3>Energia Eólica</h3>
+                    <p>Utilize a força dos ventos com micro turbinas eólicas de eixo vertical, estilosas e silenciosas.</p>
+                    <button class="btn" data-quote="eolica">Solicitar Orçamento</button>
+                </div>
+                <div class="glass-card" style="text-align: center;">
+                    <div style="font-size: 60px; margin-bottom: 20px; text-shadow: 0 4px 5px white;">💧</div>
+                    <h3>Energia Hidrelétrica</h3>
+                    <p>Sistemas de pequenas centrais hidrelétricas para propriedades rurais que possuem rios ou córregos.</p>
+                    <button class="btn" data-quote="hidro">Solicitar Orçamento</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ORÇAMENTO -->
+        <section id="orcamento" class="section">
+            <div class="glass-card">
+                <h2>📝 Solicite seu Orçamento</h2>
+                <p>Preencha o formulário abaixo. Nossa equipe entrará em contato em até 24 horas.</p>
+                
+                <form id="quoteForm" novalidate>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" placeholder="Seu nome">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="seuemail@exemplo.com">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" placeholder="(11) 99999-9999">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="servico">Tipo de Energia</label>
+                            <select id="servico">
+                                <option value="">Selecione...</option>
+                                <option value="solar">☀️ Energia Solar</option>
+                                <option value="eolica">🌬️ Energia Eólica</option>
+                                <option value="hidro">💧 Energia Hidrelétrica</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="consumo">Consumo Mensal Médio (em R$)</label>
+                        <input type="text" id="consumo" placeholder="Ex: 350,00">
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Descreva seu projeto ou dúvida</label>
+                        <textarea id="mensagem" rows="5" placeholder="Conte-nos um pouco sobre o local da instalação..."></textarea>
+                        <span class="error-message"></span>
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="btn" style="width: 100%;">Enviar Solicitação de Orçamento</button>
+                </form>
+
+                <div id="successMessage">
+                    <div class="success-icon">✅</div>
+                    <h2>Orçamento Solicitado!</h2>
+                    <p style="font-size: 20px;">Recebemos seus dados com sucesso.<br>Em breve você receberá uma proposta personalizada.</p>
+                    <button class="btn" id="newQuoteBtn">Enviar Novo Pedido</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Brisa &amp; Luz Energia | Energia Limpa para o Futuro.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
